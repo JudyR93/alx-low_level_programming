@@ -1,6 +1,5 @@
 #ifndef MAIN_H
 #define MAIN.H
-
-int _putchar(char )
+int _putchar(char)
 
 #endif
