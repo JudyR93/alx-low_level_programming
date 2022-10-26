@@ -5,15 +5,16 @@
  * _strlen - outputs string length
  * @s : a pointer starting 
  *
- * return :0
+ * return : length of string
  */
 int _strlen(char *s)
 {
-   int length;
-   while(*s (length) =! '\0')
+   int len;
+   while(*s [len] != '\0')
      { 
-	length += 1;
-	*s = *s + 1 ;
-
+	len += 1;
+	*s = *s + 1;
      }
+   printf("%d" , len);
+   return(len);
 }
