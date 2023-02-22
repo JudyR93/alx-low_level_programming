@@ -9,7 +9,7 @@ int count = 0;
 char letter;
 while (count++ <= 9)
 {
-for (letter = 'a'; <= 'z'; letter++)
+for (letter ='a'; <='z'; letter++)
 _putchar(letter);
 _putchar('\n');
 }
